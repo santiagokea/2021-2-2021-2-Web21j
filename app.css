@@ -54,7 +54,6 @@ main{
   grid-template-columns: 200fr 100fr;
   width: 100%;
   height: calc(100vh - 10rem);
-  color: red;
 }
 main #map{
   width: 100%;
@@ -67,6 +66,17 @@ main #map img{
 main #properties{
   width: 100%;
   height: 100%;
-  background: gray; 
+  background: white; 
+  padding: 0 1rem;
 }
 
+main #properties .property{
+  border-bottom: 3px solid blue;
+  padding-bottom: 2rem;
+}
+main #properties  * + *{
+  margin-top: 2rem;
+}
+main #properties .property img{
+  width: 100%;
+}
