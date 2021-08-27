@@ -11,6 +11,9 @@ nav{
   height: 10rem;
   background: white;
 }
+nav a{
+  text-decoration: none;
+}
 nav div#top{
   display: flex;
   justify-content: space-between;
@@ -21,6 +24,15 @@ nav div#top{
   height: 7rem;
   padding: 0 3rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav #top #left > * + * {
+  margin-left: 1rem;
+  /* display: grid;
+  grid-template-columns: repeat(5, 100fr); */
+  /* display: flex;
+  justify-content: space-between;
+  gap: 1rem; */
 }
 nav div#bottom{
   height: 3rem;
