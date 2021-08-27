@@ -15,9 +15,12 @@ nav a{
   text-decoration: none;
 }
 nav div#top{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 100fr 100fr 100fr;
   align-items: center;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
   /* display: grid;
   grid-template-columns: 100fr 200fr 100fr; 
   text-align: center; */
@@ -33,6 +36,12 @@ nav #top #left > * + * {
   /* display: flex;
   justify-content: space-between;
   gap: 1rem; */
+}
+nav #top #center{
+  text-align: center;
+}
+nav #top #right{
+  text-align: right;
 }
 nav div#bottom{
   height: 3rem;
