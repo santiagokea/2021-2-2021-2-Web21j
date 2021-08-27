@@ -43,6 +43,9 @@ nav #top #center{
 nav #top #right{
   text-align: right;
 }
+nav #top #right  * + * {
+  margin-left: 2rem;
+}
 nav div#bottom{
   height: 3rem;
 }
